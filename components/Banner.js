@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Banner() {
     return (
         <div className="relative h-[300px] sm:h-[400px]  lg:h-[500px] xl:h-[600] 2xl:h-[700]">
-            image loaded ??
+            
             <Image
             src="/airb2.png"
             layout="fill"
@@ -17,6 +17,7 @@ function Banner() {
                 hover:shadow-xl active:scale-90 transition duration-150
                 ">I'am flexible</button>
             </div>
+            
         </div>
     )
 }
